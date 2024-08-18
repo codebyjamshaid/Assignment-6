@@ -1,0 +1,241 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.task1{
+    text-align: center;
+    width: 250px;
+    margin-left: 150px;
+}
+
+.task1 .one{
+    border-style: solid;
+}
+.task1 .two{
+    border-style:dotted;
+}
+.task1 .three{
+    border-style:dashed;
+}
+.task1 .four{
+    border-style:double;
+}
+.task1 .five{
+    border-style:groove;
+}
+.task1 .six{
+    border-style: ridge;
+}
+.task1 .seven{
+    border-style: inset;
+}
+.task1 .eight{
+    border-style: outset;
+}
+.task1 .nine{
+    border-style: solid;
+    border-color: blue;
+}
+.task1 .ten{
+    border-style: solid;
+    border-color: grey black rgb(255, 14, 54) blue;
+}
+.task1 .eleven{
+    border-style: dotted;
+    /* width: 250px; */
+    border-color: blue;
+}
+.task1 .twelve{
+    border: 20px solid;
+    /* width: 250px; */
+    width: 300px;
+    border-color: blue;
+    padding: 50px;
+}
+.task1 .thirteen{
+    border: 20px solid;
+    /* width: 250px; */
+    width: 300px;
+    border-color: blue;
+    padding: 50px;
+}
+
+.task1 h2{
+    text-align: center;
+}
+
+/* Task 3 */
+ 
+.task3 .navbar {
+    background-color: #333;
+    padding: 10px 0;
+    /* align-items: center; */
+    /* text-align: center; */
+
+}
+
+.task3 .nav-list {
+    list-style: none;
+    /* background-image: url(); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task3 .nav-list li {
+    /* margin: 0; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.task3 .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.task3 .nav-link:hover {
+    background-color: #575757;
+    color: #ffeb3b; /* Change the text color on hover */
+}
+
+/* Task 5 */
+
+.Task5 {
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* height: 0px; */
+    /* width: 0px; */
+    /* background-color: aquamarine; */
+    background-image: "./weather.jpg";
+
+}
+
+.task5 body {
+    background-image: url("./weather.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.task5 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    /* background-color: aqua; */
+    border: solid 1px rgb(244, 227, 227);
+
+}
+
+.task5 #div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    text-align: center;
+}
+
+.task5 #div form h2 {
+    /* background-color: brown; */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    padding-bottom: 0px;
+    margin-bottom: 4px;
+}
+
+.task5 #cityName {
+    background-color: rgb(227, 232, 236);
+    width: 40vh;
+    height: 3vh;
+
+
+}
+
+.task5 button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+
+    width: 10rem;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(44, 128, 197);
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+}
+
+.task5 #weather {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+
+/* Task 6 */
+
+.task6 {
+    font-family: Arial, sans-serif;
+    background-color: #6fade0; /* Alice Blue */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+.task6 .form {
+    max-width: 650px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    border: 2px dashed rgb(224, 156, 9); /* Twitter Blue */
+}
+.task6 h1 {
+    color: rgb(223, 167, 48); /* Twitter Blue */
+}
+.task6 label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.task6 input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(198, 138, 9); /* Twitter Blue */
+    border-radius: 4px;
+}
+.task6 button {
+    background-color: rgb(224, 156, 9); /* Twitter Blue */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.task6 button:hover {
+    background-color: #f5de0c; /* Slightly darker blue */
+}
+.task6 .message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: green;
+}

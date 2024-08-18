@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Tweet</title>
+    <link rel="stylesheet" href="./task6.css">
+</head>
+
+<body class="update">
+    <div class="container">
+        <h1>Update Your Tweet!</h1>
+        <form id="tweetForm" onsubmit="return updateTweets()">
+            <label for="tweetId">Tweet ID:</label>
+            <input type="text" id="tweetId" name="tweetId" placeholder="Enter Tweet ID" required>
+
+            <label for="tweetImageUrl">Tweet Image URL:</label>
+            <input type="text" id="tweetImageUrl" name="tweetImageUrl" placeholder="Enter image URL" required>
+
+            <label for="tweetDescription">Tweet Description:</label>
+            <input type="text" id="tweetDescription" name="tweetDescription" placeholder="Describe your tweet" required>
+
+            <button type="submit">Update Tweet</button>
+        </form>
+    </div>
+    <script src="./task6.js"></script>
+</body>
+
+</html>

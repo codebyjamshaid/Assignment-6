@@ -1,0 +1,206 @@
+/* Home */
+
+.home {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Alice Blue */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+.home .nav-buttons {
+    /* display: flex; */
+    /* width: 20px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 20px;
+}
+.home .nav-buttons a {
+    margin: 0 10px;
+    font-size: small;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(224, 156, 9); 
+    border-radius: 4px;
+    font-weight: bold;
+    /* width: 10rem; */
+}
+.home .nav-buttons a:hover {
+    background-color: #fabe1a;
+}
+
+.home h1{
+    color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    margin-top: 200px;
+}
+
+
+/* Post */
+
+.post {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Alice Blue */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+.post .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    border: 2px dashed rgb(224, 156, 9); /* Twitter Blue */
+}
+.post h1 {
+    color: rgb(224, 156, 9); /* Twitter Blue */
+}
+.post label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color:aliceblue;
+}
+.post input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(224, 156, 9); /* Twitter Blue */
+    border-radius: 4px;
+}
+.post button {
+    background-color: rgb(224, 156, 9); /* Twitter Blue */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    /* width: 90%; */
+}
+.post button:hover {
+    background-color: #e8c70d; /* Slightly darker blue */
+}
+/* .post .message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: green;
+} */
+
+
+
+/* Delete */
+
+.delete {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Alice Blue */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+.delete .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    border: 2px dashed rgb(224, 156, 9); /* Twitter Blue */
+}
+.delete h1 {
+    color: rgb(224, 156, 9); /* Twitter Blue */
+}
+.delete label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color:aliceblue;
+}
+.delete input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(224, 156, 9); /* Twitter Blue */
+    border-radius: 4px;
+}
+.delete button {
+    background-color: rgb(224, 156, 9); /* Twitter Blue */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    /* width: 90%; */
+}
+.delete button:hover {
+    background-color: #e8c70d; /* Slightly darker blue */
+}
+
+
+/* Update */
+
+.update {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Alice Blue */
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+.update .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    border: 2px dashed rgb(224, 156, 9); /* Twitter Blue */
+}
+.update h1 {
+    color: rgb(224, 156, 9); /* Twitter Blue */
+}
+.update label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color:aliceblue;
+}
+.update input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid rgb(224, 156, 9); /* Twitter Blue */
+    border-radius: 4px;
+}
+.update button {
+    background-color: rgb(224, 156, 9); /* Twitter Blue */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    /* width: 90%; */
+}
+.update button:hover {
+    background-color: #e8c70d; /* Slightly darker blue */
+}
+

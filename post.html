@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Tweet</title>
+    <link rel="stylesheet" href="./task6.css">
+</head>
+<body class="post">
+    <div class="container">
+        <h1>Tweet Your Thoughts!</h1>
+        <form id="tweetForm" onsubmit="return saveTweets()">
+            <label for="tweetImageUrl">Tweet Image URL:</label>
+            <input type="text" id="tweetImageUrl" name="tweetImageUrl" placeholder="Enter image URL" required>
+
+            <label for="tweetDescription">Tweet Description:</label>
+            <input type="text" id="tweetDescription" name="tweetDescription" placeholder="Describe your tweet" required>
+
+            <button type="submit">Save Tweet</button>
+        </form>
+    </div>
+    <script src="./task6.js"></script>
+
+</body>
+</html>
